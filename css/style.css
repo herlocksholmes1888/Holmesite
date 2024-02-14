@@ -25,7 +25,7 @@ body {
 
 main {
     max-width: 1280px;
-    padding: 5px 5px 5px 5px;
+    padding: 1.5rem;
     margin: 0 auto;
     background-color: var(--color-neutral-20);
     box-shadow: 3px 3px 6px var(--color-neutral-80);
@@ -35,30 +35,53 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
+    height: 8rem;
     color: var(--color-neutral-40);
     background-color: var(--color-neutral-60);
-    height: 50px;
-    justify-content: space-between;
+    height: 5rem;
     padding: 0 2%;
+    margin-bottom: 3rem;
 }
 
-#logo {
-    width: 50px;
-    height: 100%;
-    filter: invert(1);
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#brett, #burke {
+.img {
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
     filter: sepia(80%);
 }
 
+.img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin: 1rem;
+}
+
+#logo {
+    width: 5%;
+    height: 80%;
+    filter: invert(1);
+}
+
+.navigation {
+    margin-bottom: 2rem;
+}
+
 footer {
     width: 100%;
     color: var(--color-neutral-40);
+    margin-top: 3rem;
 }
 
 #footer-content {
